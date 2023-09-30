@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1100px){
+    .payment-sec{
+        flex-direction: column;
+    }
+    .work-section{
+        flex-direction: column-reverse;
+    }
+    .app-section{
+        flex-direction: column;
+    }
+    .imgsec{
+        
+        background-image: none;
+    }
+    .imgsec{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px){
+    .mid-nav a{
+      display: none;
+    }
+    .right-nav button{
+        display: none;
+    }
+    
+    .feature{
+        flex-direction: column;
+    }
+    .support-sec{
+        flex-direction: column;
+    }
+    .left-sup button{
+        margin-top: 20px;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    .first-img img{
+        height: 300px;
+        width: 300px;
+    }
+}
